@@ -104,7 +104,11 @@ class UserProfileActivity : BaseActivity(), OnClickListener {
                 binding?.ivUserPhoto?.id -> {
                     if (ContextCompat.checkSelfPermission(
                             this,
-                            Manifest.permission.READ_EXTERNAL_STORAGE
+                            if (Build.VERSION.SDK_INT >=33) {
+                                Manifest.permission.READ_MEDIA_IMAGES
+                            } else {
+                                Manifest.permission.READ_EXTERNAL_STORAGE
+                            }
                         ) == PackageManager.PERMISSION_GRANTED
                     ) {
                         //showErrorSnackBar("You already have the storage permission", false)
@@ -112,7 +116,16 @@ class UserProfileActivity : BaseActivity(), OnClickListener {
                     } else {
                         ActivityCompat.requestPermissions(
                             this,
-                            arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE),
+                            if (Build.VERSION.SDK_INT >=33) {
+                                arrayOf(Manifest.permission.READ_MEDIA_IMAGES)
+
+                            } else {
+                                arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE)
+
+                            },
+                            if (Build.VERSION.SDK_INT >=33) {
+                                Constants.PICK_IMAGE_REQUEST_CODE
+                            } else
                             Constants.READ_STORAGE_PERMISSION_CODE
                         )
                     }

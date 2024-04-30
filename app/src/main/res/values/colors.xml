@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#f03e3e</color>
+    <color name="colorPrimary">#399FF1</color>
     <color name="colorPrimaryDark">#c92a2a</color>
     <color name="bgBottomNavigation">#fe485a</color>
 
@@ -8,10 +8,10 @@
 
     <color name="colorPrimaryText">#222934</color>
     <color name="colorSecondaryText">#989898</color>
-    <color name="colorThemePink">#ED2173</color>
+    <color name="colorThemeBlue">#03A9F4</color>
     <color name="colorThemeOrange">#F4442D</color>
     <color name="colorLightGrey">#ced4da</color>
-    <color name="colorAccent">#ED2173</color>
+    <color name="colorAccent">#3047CA</color>
     <color name="test">#ff8787</color>
 
     <color name="colorBorder">#E8E6E6</color>

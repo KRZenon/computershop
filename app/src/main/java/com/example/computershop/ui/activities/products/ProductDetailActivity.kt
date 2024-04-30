@@ -22,14 +22,14 @@ import com.example.computershop.ui.activities.BaseActivity
 import com.example.computershop.ui.activities.message.ChatLogActivity
 import com.example.computershop.utils.Constants
 import com.example.computershop.utils.GliderLoader
-import com.google.firebase.firestore.FirebaseFirestore
+
 
 class ProductDetailActivity : BaseActivity(), OnClickListener {
     private var mProductID: String = ""
     private var mProductOwnerID: String = ""
-    lateinit var mProductDetails: Product
-    lateinit var mUser: User
-    lateinit var mIntent: Intent
+    private lateinit var mProductDetails: Product
+    private lateinit var mUser: User
+    private lateinit var mIntent: Intent
     private var binding: ActivityProductDetailBinding? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,7 +53,7 @@ class ProductDetailActivity : BaseActivity(), OnClickListener {
         if (intent.hasExtra(Constants.EXTRA_PRODUCT_OWNER_ID)) {
             mProductOwnerID = intent.getStringExtra(Constants.EXTRA_PRODUCT_OWNER_ID)!!
         }
-        if (FirestoreClass().getCurrentUserId().equals(mProductOwnerID)) {
+        if (FirestoreClass().getCurrentUserId() == mProductOwnerID) {
             binding?.btnAddToCart?.visibility = View.GONE
             binding?.btnGoToCart?.visibility = View.GONE
         } else {
@@ -162,13 +162,13 @@ class ProductDetailActivity : BaseActivity(), OnClickListener {
 
     override fun onClick(p0: View?) {
         if (p0 != null) {
-            when (p0?.id) {
+            when (p0.id) {
                 binding?.btnAddToCart?.id -> {
                     addToCart()
                 }
 
                 binding?.btnGoToCart?.id -> {
-                    val intent: Intent =
+                    val intent =
                         Intent(this@ProductDetailActivity, CartProductListActivity::class.java)
 
                     startActivity(intent)

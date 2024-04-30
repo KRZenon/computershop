@@ -94,7 +94,7 @@
             android:layout_marginTop="@dimen/settings_name_marginTop"
             android:textColor="@color/colorDarkGrey"
             android:textSize="@dimen/settings_name_textSize"
-            tools:text="Nguyen Dung" />
+            tools:text="Anh Tuan" />
         <com.example.computershop.utils.MSPTextView
             android:id="@+id/tv_birthday"
             android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
             android:layout_marginTop="@dimen/settings_info_marginTop"
             android:textColor="@color/colorSecondaryText"
             android:textSize="@dimen/settings_info_textSize"
-            tools:text="14/09/2002" />
+            tools:text="13/06/2002" />
         <com.example.computershop.utils.MSPTextView
             android:id="@+id/tv_gender"
             android:layout_width="wrap_content"
@@ -125,7 +125,7 @@
             android:layout_marginTop="@dimen/settings_info_marginTop"
             android:textColor="@color/colorSecondaryText"
             android:textSize="@dimen/settings_info_textSize"
-            tools:text="nguyendung1492002@gmail.com" />
+            tools:text="anhtuanhuynhnguyen13@gmail.com" />
 
         <com.example.computershop.utils.MSPTextView
             android:id="@+id/tv_mobile_number"
@@ -136,7 +136,7 @@
             android:layout_marginTop="@dimen/settings_info_marginTop"
             android:textColor="@color/colorSecondaryText"
             android:textSize="@dimen/settings_info_textSize"
-            tools:text="877980953" />
+            tools:text="0703085013" />
         <LinearLayout
             android:id="@+id/ll_address"
             android:layout_width="match_parent"

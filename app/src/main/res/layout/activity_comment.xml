@@ -93,7 +93,7 @@
             android:numStars="5"
             android:progress="3"
             android:progressBackgroundTint="@color/colorSecondaryText"
-            android:progressTint="@color/colorThemePink" />
+            android:progressTint="@color/colorThemeBlue" />
         </LinearLayout>
     </LinearLayout>
 

@@ -4,7 +4,7 @@
     <corners
         android:radius="@dimen/grey_border_radius_search" />
     <stroke
-        android:color="@color/colorThemePink"
+        android:color="@color/blue"
         android:width="@dimen/grey_border_stroke_size_search"/>
 
 </shape>

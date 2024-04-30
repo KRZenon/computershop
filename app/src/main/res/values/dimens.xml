@@ -123,7 +123,7 @@
     <dimen name="add_address_textSize">18sp</dimen>
     <dimen name="rv_address_list_marginTop">16dp</dimen>
 
-    <dimen name="add_edit_address_radio_button_height">40dp</dimen>
+    <dimen name="add_edit_address_radio_button_height">48dp</dimen>
     <dimen name="add_edit_address_radio_button_marginStartEnd">5dp</dimen>
 
     <dimen name="item_address_marginTop">16dp</dimen>

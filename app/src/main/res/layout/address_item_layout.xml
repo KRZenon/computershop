@@ -24,7 +24,7 @@
             android:layout_weight="1"
             android:textColor="@color/item_value_text_color"
             android:textSize="@dimen/item_address_name_textSize"
-            tools:text="Nguyen Dung" />
+            tools:text="Anh Tuan" />
 
         <com.example.computershop.utils.MSPTextView
             android:id="@+id/tv_address_type"
@@ -48,7 +48,7 @@
         android:layout_marginTop="@dimen/address_details_marginTop"
         android:textColor="@color/item_value_text_color"
         android:textSize="@dimen/address_details_textSize"
-        tools:text="KTX Khu B, Dong Hoa, Di An, Binh Duong" />
+        tools:text="Huynh Tan Phat, Nha Be, Ho Chi Minh" />
 
     <com.example.computershop.utils.MSPTextView
         android:id="@+id/tv_address_mobile_number"
@@ -57,5 +57,5 @@
         android:layout_marginTop="@dimen/address_details_marginTop"
         android:textColor="@color/item_value_text_color"
         android:textSize="@dimen/address_details_textSize"
-        tools:text="+84 96 751 4403" />
+        tools:text="+84 70 380 5013" />
 </LinearLayout>

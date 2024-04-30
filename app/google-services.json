@@ -1,13 +1,13 @@
-{
+ {
   "project_info": {
-    "project_number": "470819443521",
-    "project_id": "computershop-a5a81",
-    "storage_bucket": "computershop-a5a81.appspot.com"
+    "project_number": "952582784959",
+    "project_id": "myshopeleapp",
+    "storage_bucket": "myshopeleapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:470819443521:android:3b54f4e049f81078c047c0",
+        "mobilesdk_app_id": "1:952582784959:android:f13ed9450c58510243030a",
         "android_client_info": {
           "package_name": "com.example.computershop"
         }
@@ -15,7 +15,26 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAGqKiyCs2ZqeKvf-XDkdr7yI7qnw4olOs"
+          "current_key": "AIzaSyAI3WvfUyBx3LffCQE4QfJC-BoH7dyl0QU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952582784959:android:4ffed7bfded2debf43030a",
+        "android_client_info": {
+          "package_name": "com.example.myappshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI3WvfUyBx3LffCQE4QfJC-BoH7dyl0QU"
         }
       ],
       "services": {

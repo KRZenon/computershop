@@ -73,7 +73,7 @@
                 android:layout_height="50dp"
                 android:hint="@string/send_message"
                 android:inputType="text"
-                android:textColor="@color/colorPrimaryText"
+                android:textColor="@color/white"
                 android:textSize="14sp" />
         </com.google.android.material.textfield.TextInputLayout>
 

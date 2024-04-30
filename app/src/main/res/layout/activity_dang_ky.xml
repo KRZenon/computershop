@@ -227,7 +227,7 @@
                     android:foreground="?attr/selectableItemBackground"
                     android:text="@string/login"
                     android:textColor="@color/colorSecondaryText"
-                    android:textSize="15dp" />
+                    android:textSize="15sp" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
